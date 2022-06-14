@@ -1,0 +1,4 @@
+Battleship-style game with randomly generated maps. During the first 2 weeks of Academy Pittsburgh we were learning C#. 
+One of our projects we worked on was a battleship game. After completing a limited MVP during class, I decided to expand on it. The game currently makes two randomly generated maps based on a few parameters (and makes a third map that pretends to be randomly generated.) I wrote the functions so that the size of the map and number of boats added to the map can be changed, for example the first map is just a 3x3 grid, whereas the second one is 8x8. Then the boats are randomly placed on the grid. I was enjoying myself a lot so there's a 'story' and even 'music' in the game as well (though the 'music' doesn't work on Macs.) It was basically my first solo coding project so I'm a bit sentimental about it.
+
+(Content warning: curse words and the threat of the complete annihilation of the human race.)

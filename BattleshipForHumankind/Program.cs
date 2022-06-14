@@ -46,17 +46,6 @@ namespace BattleshipForHumankind
             //Call the function that creates the map
             int[,] FirstMap = BattleshipMap(size, boats);
 
-            // Early Debugging
-            //Verifying I got a randomized map
-            //for (int i = 0; i < 3; i++)
-            //{
-            //    for (int j = 0; j < 3; j++)
-            //    {
-            //        Console.Write(FirstMap[i, j]);
-            //    }
-            //    Console.WriteLine();
-            //}
-
             //Head into the GameLoop function, sending in the map, map size, number of allowable misses
             bool DidWin = GameLoop(FirstMap, size, misses);
 
@@ -74,7 +63,7 @@ namespace BattleshipForHumankind
                 Console.WriteLine("Press enter to start the new test. (I believe in you, " + name + ".)");
                 Console.ReadLine();
                 
-                //Send to the second map
+                //Head to the second map
             }
             else
             {
@@ -658,9 +647,3 @@ namespace BattleshipForHumankind
         }
     }
 }
-
-
-
-
-
-//Damn, almost made it to 666 lines. 
